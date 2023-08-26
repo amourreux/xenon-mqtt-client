@@ -6,16 +6,6 @@
 // process.
 let client = null
 
-/**
- * this demo uses EMQX Public MQTT Broker (https://www.emqx.com/en/mqtt/public-mqtt5-broker), here are the details:
- *
- * Broker host: broker.emqx.io
- * TCP Port: 1883
- * SSL/TLS Port: 8883
- * WebSocket port: 8083
- * WebSocket over TLS/SSL port: 8084
- */
-
 const options = {
   keepalive: 30,
   protocolId: 'MQTT',

@@ -7,6 +7,10 @@ NPM:
 npm install
 # Run the app
 npm start
+# Package App
+npm run package
+# Create Install File
+npm run make
 ```
 
 Yarn:
@@ -16,4 +20,8 @@ Yarn:
 yarn install
 # Run the app
 yarn start
+# Package App
+yarn package
+# Create Install File
+yarn make
 ```
